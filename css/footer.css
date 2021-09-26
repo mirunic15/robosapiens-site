@@ -1,0 +1,61 @@
+.footer {
+    padding: 90px;
+    margin-top: 100px;
+    background-color: #91bfeb;
+    background-repeat: round;
+    border-radius: 15px;
+    background-size: cover;
+    opacity: 0.9;
+    content: block;
+}
+
+.footer .curve {
+    position: relative;
+    top: 10%;
+    opacity: 0.2;
+    width: 99%;
+    height: 38%;
+    border-bottom-left-radius: 65px;
+}
+
+.footer h1 {
+    margin-top: -60px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.footer .contact {
+    margin: -20px;
+    text-align: justify;
+    padding: 2px;
+    padding-bottom: 5px;
+    margin-top: 1px;
+}
+
+.footer .contact a {
+    font-size: 45px;
+    display: contents;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.footer .contact .fab {
+    width: 90px;
+    margin-left: 1px;
+}
+
+.footer .sponsori {
+    margin: -20px;
+    text-align: center;
+    margin-top: -116px;
+    margin-left: -35px;
+}
+
+.footer .sponsori .logosponsor img {
+    width: 20%;
+}
