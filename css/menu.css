@@ -1,28 +1,77 @@
-.menu li {
-    position: relative;
-    padding: 3%;
+.menu-wrapper {
+    position: fixed;
+    width: 100vw;
+    height: 18vh;
+    /* background-color: brown; */
+    /* box-sizing: border-box; */
+    /* padding: 10%; */
+    z-index: 1000;
 }
 
-.menu ul {
-    position: relative;
-    left: 50%;
+#logo {
+    position: absolute;
+    background-color: white;
+    width: 15vh;
+    height: 15vh;
+    left: 1%;
     top: 50%;
-    transform: translate(-50%, -50%);
-    border-width: 10px;
-    border-color: aqua;
-    /* background-color: brown; */
-    width: 60%;
+    transform: translate(0%, -50%);
+    border: 0.5vh solid white;
+    border-radius: 50%;
+    box-sizing: border-box;
+    z-index: 5;
+    /* visibility: hidden; */
+}
+
+#logo img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
 
 .menu {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    height: 5vh;
-    width: 80vw;
+    position: absolute;
+    top: 50%;
+    /* left: 50%; */
+    right: 3%;
+    transform: translate(0%, -50%);
+    height: 65%;
+    width: 90%;
     background-color: blueviolet;
     color: burlywood;
     border-radius: 30px;
-    padding: 3%;
-    margin: 3% 0% 3% 0%;
+    border: 1vh solid white;
+    /* padding: 3%; */
+    box-sizing: border-box;
+}
+
+.menu ul {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0% 0% 0% 0%;
+    display: inline-flex;
+    /* background-color: red; */
+    box-sizing: border-box;
+}
+
+.menu li {
+    position: relative;
+    margin: 0% 8% 0% 0%;
+    color: white;
+}
+
+.menu li a {
+    color: white;
+    font-family: Charybdis;
+    font-size: 200%;
+    text-decoration: none;
+}
+
+.menu li a:visited {
+    color: white;
 }
